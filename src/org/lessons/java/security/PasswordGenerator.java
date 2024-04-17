@@ -41,7 +41,7 @@ public class PasswordGenerator {
 		// definisco la somma dei numero della data di nascita
 		int sommaNumeriNascita = dataNascita + meseNascita + annoNascita;
 		// definisco la variabile password
-		String password = nome + cognome + colorePreferito + sommaNumeriNascita;
+		String password = nome + "-" + cognome + "-" + colorePreferito + "-" + sommaNumeriNascita;
 		
 		
 		
