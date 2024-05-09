@@ -1,43 +1,24 @@
 package org.lessons.java.security;
 
+import java.util.Scanner;
+
 public class Main {
 
+	static Utente nuovoUser = new Utente();
+	
 	public static void main(String[] args) {
 		
-
-Utente pippo = new Utente("Alessio", "Santini", "viola", 6 , 12, 1982);
 		
-		System.out.println(pippo.toString());
-		
-//		// nome
-//		System.out.println("Inserisci il tuo nome");
-//		public void setNome(Scanner input = new Scanner(System.in));
-//		
-//		// cognome
-//		System.out.println("Inserisci il tuo conome");
-//		public void setCognome(Scanner input = new Scanner(System.in));
-//		
-//		// colore preferito
-//		System.out.println("Inserisci il colore preferito");
-//		public void setColorePreferito	(String colorePreferito = input.nextLine());	
-//				
-//				
-//		// giorno nascita
-//		System.out.println("Inserisci il giorno di nascita (numero)");
-//		public void setGiornoNascita	(String giornoNascita = input.nextLine());
-//				
-//				int dataNascita = input.nextInt();
-//				
-//				// mese nascita
-//				System.out.println("Inserisci il mese di nascita (numero)");
-//				
-//				int meseNascita = input.nextInt();
-//				
-//				// anno nascita
-//				System.out.println("Inserisci l'anno di nascita");
-//				int annoNascita = input.nextInt();
-//			
+		 //nuovoUser.passwordGen("rosa","pist","viola", 18,3,1982);
 
+		// metodo Scanner permette di prendere un input dalla tastiera
+				Scanner input = new Scanner(System.in);
+				// apre il field per inserimento dati utente
+				System.out.println("Inserisci il tuo nome");
+				
+				String nuovoUser.setNome(input.nextLine());
+				
+				System.out.println(nuovoUser);
 	}
 
 }

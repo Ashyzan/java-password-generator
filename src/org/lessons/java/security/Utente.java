@@ -10,8 +10,9 @@ public class Utente {
 	private int annoNascita;
 	
 	// costruttore
-	public Utente( String nome , String cognome , String colorePreferito , int giornoNascita , 
-			int meseNascita , int annoNascita)  {
+	public Utente( // String nome , String cognome , String colorePreferito , int giornoNascita , 
+		//	int meseNascita , int annoNascita
+			)  {
 		
 		this.nome = nome;
 		
@@ -25,10 +26,36 @@ public class Utente {
 		
 		this.annoNascita = annoNascita;
 		
+		
+		
 	}
 	
 	// getter
 	
+
+	public String getNome() {
+		return nome;
+	}
+
+	public String getCognome() {
+		return cognome;
+	}
+
+	public String getColorePreferito() {
+		return colorePreferito;
+	}
+
+	public int getGiornoNascita() {
+		return giornoNascita;
+	}
+
+	public int getMeseNascita() {
+		return meseNascita;
+	}
+
+	public int getAnnoNascita() {
+		return annoNascita;
+	}
 
 	public void setNome(String nome) {
 		this.nome = nome;
@@ -60,6 +87,19 @@ public class Utente {
 
 	public void setAnnoNascita(int annoNascita) {
 		this.annoNascita = annoNascita;
+	}
+	
+	
+	public String toString() {
+		
+		return "Il tuo nome è " + nome + "\n" +
+				"Il tuo cognome è " + cognome + "\n" +
+				"Il tuo colorre preferito è " + colorePreferito + "\n" + 
+				"Il tuo giorno di nascita è " + giornoNascita + "\n" +
+				"Il tuo mese di nascita è " + meseNascita + "\n" +
+				"Il tuo anno di nascita è " + annoNascita;	
+		
+		
 	}
 	
 	
