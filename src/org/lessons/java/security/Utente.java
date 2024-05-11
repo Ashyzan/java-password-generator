@@ -10,8 +10,8 @@ public class Utente {
 	private int annoNascita;
 	
 	// costruttore
-	public Utente( // String nome , String cognome , String colorePreferito , int giornoNascita , 
-		//	int meseNascita , int annoNascita
+	public Utente( String nome , String cognome , String colorePreferito , int giornoNascita , 
+			int meseNascita , int annoNascita
 			)  {
 		
 		this.nome = nome;
