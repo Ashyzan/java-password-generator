@@ -102,19 +102,6 @@ public class Utente {
 		
 	}
 
-//	public static String generaPassword (Utente pippo) {
-//		
-//		String password = 
-//		pippo.getNome() + "-" +
-//		pippo.getCognome() + "-" +
-//		pippo.getColorePreferito() + "-" +
-//		pippo.getGiornoNascita() + "-" +
-//		pippo.getMeseNascita() + "-" + 
-//		pippo.getAnnoNascita();
-//		
-//		return password;
-//		
-//	}
 
 	
 	
