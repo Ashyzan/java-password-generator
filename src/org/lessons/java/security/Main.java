@@ -46,7 +46,7 @@ public class Main {
 				
 				System.out.println(Pippo);
 				
-				System.out.println("La tua password è " + Pippo.generaPassword(Pippo));
+				System.out.println("La tua password è " + PasswordGeneratorOOP.generaPassword(Pippo));
 				
 				
 				
