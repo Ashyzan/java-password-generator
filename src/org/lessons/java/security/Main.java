@@ -41,6 +41,18 @@ public class Main {
 				int annoNascita = input.nextInt();
 				
 				
+				// Creo l'oggetto utente a partire dagli input inseriti con scanner
+				Utente Pippo = new Utente(nome, cognome, colorePreferito, dataNascita,meseNascita, annoNascita );
+				
+				System.out.println(Pippo);
+				
+				System.out.println("La tua password è " + Pippo.generaPassword(Pippo));
+				
+				
+				
+
+				
 	}
+
 
 }

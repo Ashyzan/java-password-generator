@@ -10,22 +10,19 @@ public class PasswordGeneratorOOP {
 	//metodo password generator (accetta i parametri dell'utente)
 	
 	
-	public static  String generaPassword (Utente pippo) {
-		
-		Utente pippo1 = new Utente("Pippo", "Pisto", "viola", 6, 3 , 1980);
+	public static String generaPassword (Utente pippo) {
 		
 		String password = 
-		pippo1.getNome() + "-" +
-		pippo1.getCognome() + "-" +
-		pippo1.getColorePreferito() + "-" +
-		pippo1.getGiornoNascita() + "-" +
-		pippo1.getMeseNascita() + "-" + 
-		pippo1.getAnnoNascita();
+		pippo.getNome() + "-" +
+		pippo.getCognome() + "-" +
+		pippo.getColorePreferito() + "-" +
+		pippo.getGiornoNascita() + "-" +
+		pippo.getMeseNascita() + "-" + 
+		pippo.getAnnoNascita();
 		
 		return password;
 		
 	}
-
 
 
 }
